@@ -51,7 +51,7 @@
                 Kunci Margin Anda. <span class="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">Amankan Profit dari Potongan Marketplace.</span>
             </h1>
             <p class="text-gray-400 max-w-xl mx-auto text-sm md:text-base leading-relaxed">
-                Platform intelijen harga mikro untuk mendeteksi, mensimulasikan, dan memproteksi keuntungan bersih dari risiko potongan biaya operasional bertingkat[cite: 1].
+                Platform intelijen harga mikro untuk mendeteksi, mensimulasikan, dan memproteksi keuntungan bersih dari risiko potongan biaya operasional bertingkat.
             </p>
         </div>
 
@@ -159,7 +159,7 @@
                         </div>
 
                         <div class="bg-gray-900/60 border border-gray-800/80 rounded-xl p-3.5 text-[11px] text-gray-400 leading-relaxed">
-                            💡 <strong>Metodologi Intelijen:</strong> Algoritma melakukan *reverse engineering* guna menangkal efek deplesi margin yang dipicu oleh akumulasi biaya persentase berlapis[cite: 1].
+                            💡 <strong>Metodologi Intelijen:</strong> Algoritma melakukan *reverse engineering* guna menangkal efek deplesi margin yang dipicu oleh akumulasi biaya persentase berlapis.
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                         <div>
                             <span class="text-[9px] uppercase font-bold text-cyan-400 bg-cyan-400/10 px-2 py-0.5 rounded border border-cyan-500/20 tracking-wider">Enterprise Feature</span>
                             <p class="text-xs font-bold text-white mt-2">Kalkulator Multi-Channel Massal (.CSV)</p>
-                            <p class="text-[11px] text-gray-400 mt-1 leading-relaxed">Simulasikan ratusan produk Shopee & TikTok Shop sekaligus hanya Rp9.000/bulan[cite: 1].</p>
+                            <p class="text-[11px] text-gray-400 mt-1 leading-relaxed">Simulasikan ratusan produk Shopee & TikTok Shop sekaligus hanya Rp9.000/bulan.</p>
                         </div>
                         <button onclick="triggerPremiumClick()" class="w-full text-center mt-3.5 bg-gray-900/80 hover:bg-gray-800 text-cyan-400 text-xs font-bold py-2.5 px-3 rounded-xl border border-cyan-500/20 transition cursor-pointer shadow-md">
                             Minta Akses Eksklusif (Waitlist)
@@ -200,7 +200,7 @@
             const biayaFlat = parseFloat(document.getElementById('biayaFlat').value) || 0;
 
             if (hpp === 0 || targetProfit === 0) {
-                alert("Harap tentukan nominal komponen modal HPP dan target laba bersih terlebih dahulu[cite: 1].");
+                alert("Harap tentukan nominal komponen modal HPP dan target laba bersih terlebih dahulu.");
                 return;
             }
 
@@ -212,7 +212,7 @@
                 return;
             }
 
-            // Rumus Inti: Harga Jual = (HPP + Laba + Biaya Flat) / (1 - Total Potongan)[cite: 1]
+            // Rumus Inti: Harga Jual = (HPP + Laba + Biaya Flat) / (1 - Total Potongan)
             const rekomendasiHargaJual = (hpp + targetProfit + biayaFlat) / (1 - totalRatePotongan);
 
             // 3. Hitung Proporsi Pengeluaran Nominal Riil[cite: 1]
@@ -243,7 +243,7 @@
                     'value': hpp,
                     'merchant_status_rate': rateAdmin
                 });
-                console.log("GA4 Log: Event 'calculator_calculation_success' berhasil dilepas[cite: 1].");
+                console.log("GA4 Log: Event 'calculator_calculation_success' berhasil dilepas.");
             }
         }
 
